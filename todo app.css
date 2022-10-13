@@ -1,0 +1,217 @@
+body{
+    margin: 0;
+    padding: 0;
+font-family: cursive;
+line-height: 1.4;
+     background-image:url(image3.jpg);
+   background-position: center;
+   background-size: cover;
+   background-repeat: no-repeat;
+   text-transform: capitalize;
+}
+h1{
+    text-transform: capitalize;
+    text-align: center;
+    font-size: 50px
+}
+
+p{
+    text-transform: capitalize;
+    text-align: center;
+}
+.buttons{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(100px,1fr));
+    grid-gap: 40px;
+    margin: 10% 80px;
+    height: 80px;
+    padding: 5px;
+}
+     .createTask,.viewTask,.editTask {
+    border-radius: 7px;
+    text-transform: capitalize;
+    border-style: none;
+    z-index: 9;
+    box-shadow:0 1px 30px #555;
+    outline: 0;
+    cursor: pointer;
+}
+.createTask{
+    background: forestgreen;
+    color: white;
+    font-size: 16px;
+}
+.viewTask{
+    background: rgb(248, 193, 10);
+    font-size: 16px;
+    color: white;
+}
+
+.editTask{
+    background: rgb(197, 24, 24);
+    color: white;
+    font-size: 16px;
+
+}
+
+
+svg {
+    margin-top: -5%;
+    width: 100%;
+    height: 50px;
+
+}
+
+#create{
+    color: white;
+    border-radius:0;
+    background:forestgreen;
+    width: 80px;
+    height: 5vh;
+    box-shadow: none;
+    margin-left: 25%;
+    margin-top: 13px;
+     position: relative;
+     top: 10%;
+     border-style: none;
+    z-index: 9;
+    box-shadow:0 1px 30px #555;
+    outline: 0;
+    cursor: pointer;
+    border-radius: 7px;
+}
+#create:hover{
+    box-shadow: inset 10px 5px 10px rgb(44, 157, 53);
+}
+h2{
+  text-align: center;
+ color: rgb(85, 79, 79); 
+}
+.form{
+    border-radius: 5px;
+    margin-left: 7%;
+    margin-right: 7%;
+    height: 300px;
+}
+ .task, .date{
+     cursor: pointer;
+     box-sizing: border-box;
+     position: relative;
+     width:50%;
+     height: 4em;
+     outline: 0;
+     text-align: center;
+     margin-left: 25%;
+     margin-right: 25%;
+     border-radius: 5px;
+     font-size: 15px;
+     border: 2px solid  rgb(51, 131, 51);
+     transition: 0.9s;
+
+ }
+ .task:hover{
+    box-shadow:0 1px 30px #555;
+ }
+ .date:hover{
+    box-shadow:0 1px 30px #555;
+ }
+ 
+ 
+ label{
+     margin-left: 25%;
+     transition: 0.9s;
+ }
+ .date{
+     margin-top: 10px;
+ }
+ .task{
+     margin-bottom: 10px;
+ }
+ .home{
+     color: white;
+     background: #555;
+     box-shadow: none;
+     height: 25px;
+     margin-left: 1px;
+     box-shadow:0 1px 30px #555;
+     outline: 0;
+     cursor: pointer;
+     border-style: none; 
+     border-radius: 7px;
+ }
+ .home:hover{
+    background: rgb(126, 114, 114);
+ }
+ .box{
+    margin-top: -3.98%;
+}
+svg {
+    width: 100%;
+    height: 50px;
+}
+h2{
+  text-align: center;
+ color: rgb(85, 79, 79); 
+ }
+ .home{
+     color: white;
+     background: #555;
+     box-shadow: none;
+     height: 25px;
+     margin-left: 10px;
+ }
+ .home:hover{
+    background: rgb(126, 114, 114);
+ }
+ #taskbox {
+   width: 100%;  
+ }
+ 
+  li {
+      display: inline-block;
+       width: 50%;
+     white-space:normal;
+     text-align: center;
+     border-radius: 5px;
+     box-shadow:2px 2px 5px 2px #555;
+     margin-left:23.5%;
+     margin-right:25%;
+     margin-bottom: 9px;
+     padding:7px 5px 7px 5px;
+     list-style-type: none;
+     font-size: 1.3em;
+          border-bottom: 2px solid forestgreen;
+    }
+
+
+      i, .fa-trash-alt{
+          display: flex;
+          float: right;
+ text-decoration: none;
+ color: rgb(190, 20, 20);
+ position: relative;
+ word-wrap: break-word;
+ white-space:normal;
+
+
+   }
+   input[type="checkbox"]{
+        display: flex;
+        border: 50px solid forestgreen;
+        border-radius: 50%;
+        cursor: pointer;
+             }
+      li:nth-of-type(even){
+        background-color: #f3f3f3;
+    }
+    li:hover{
+        background-color: forestgreen;
+        color: white;
+    }
+    hr{
+        border: 1px solid forestgreen;
+        height: 4%;
+
+    }
+     
+     

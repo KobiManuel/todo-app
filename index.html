@@ -1,0 +1,91 @@
+<html>
+    <head>
+        <title> todo app</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+   <body>
+       <div class="container">
+           <form>
+                <h1>login</h1>
+               <input type="text" class="text" placeholder="Username">
+               <input type="password" class="password" placeholder="password">
+             <a href="ToDo app.html"> <input class="submit" value="login"> </a>
+           </form>
+       </div>
+   </body>
+   <style>
+       body{
+           margin: 0;
+           padding: 0;
+           background-image:url(image3.jpg);
+           background-position: center;
+           background-size: contain;
+           font-family: cursive;
+       }
+       .container{
+           position: absolute;
+        border-radius: 5px;
+        box-shadow:0 1px 30px #555;
+        z-index: 3;
+        top: 50%;
+        left: 50%;
+        width: 350px;
+        height:350px;
+        margin: -175px;
+      }
+      form{
+          position: absolute;
+          color: rgb(151, 146, 146);
+           width: 300px;
+           padding: 22px;
+           top: 5%;
+           text-align: center;
+           text-transform: uppercase;
+           font-weight: 500;
+           
+      }
+      .text, .password{
+          border: 0;
+          color: white;
+          font-weight: bolder;
+          background: none;
+          display: block;
+          margin: 20px auto;
+          text-align: center;
+          border: 2px solid rgb(99, 99, 131);
+          border-radius: 24px;
+          padding: 14px 10px;
+          width: 200px;
+          transition: 0.2s;
+      }
+      .text:hover , .password:hover{
+          width: 280px;
+          border-color: rgb(51, 131, 51);
+      }
+         input, .submit{
+             text-transform: capitalize;
+            border: 0;
+          background: none;
+          display: block;
+          margin: 20px auto;
+          text-align: center;
+          border: 2px solid  rgb(51, 131, 51);
+          border-radius: 24px;
+          padding: 14px 20px;
+          width:80px;
+          transition: 0.2s;
+          color: rgb(151, 146, 146);
+          font-weight: bold;
+          cursor: pointer;
+          outline: 0;
+        }
+        a{
+            text-decoration: none;
+        }
+         .submit:hover{
+             background:  rgb(50, 148, 50);
+             color: white;
+         }
+
+   </style>
+   </html>
